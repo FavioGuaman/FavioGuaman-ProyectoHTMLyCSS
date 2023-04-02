@@ -1,0 +1,622 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0px;
+}
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+body header img{
+    width: 120.34px;
+    height: 23.74px;
+}
+
+header div input{
+    display: none;
+}
+
+header div i.fa-solid{
+    display: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 174px;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #242E52;
+    transition: font-size 1s;
+}
+
+header nav ul li a:hover{
+    opacity: 0.8;
+    font-size: 0.95rem;
+}
+
+button{
+    background-color: #F3603B;
+    border-radius: 50px;
+    border: none;
+    width: 134px;
+    height: 44px;
+}
+
+button a{
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: font-size 1s;
+}
+
+button:hover{
+    opacity: 0.8;
+    color: #FFFFFF;
+}
+
+h1{
+    font-size: 50px;
+    color: #232C50;
+}
+
+.primer article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 439px;
+    height: 386px;
+    
+}
+
+section.primer{
+    display: flex;
+    justify-content: space-around;
+}
+
+section.segundo{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+section.segundo article:nth-of-type(1){
+    width: 433px;
+    height: 212px;
+}
+
+article article div{
+    width: 437px;
+    height: 158px;
+}
+
+article article button{
+    color: #FFFFFF;
+    width: 69px;
+    height: 43px;
+}
+
+article article div h3{
+    font-size: 16px;
+}
+
+article article div p{
+    font-size: 16.2984px;
+}
+
+section.segundo article article:nth-of-type(1){
+    width: 553px;
+    height: 158px;
+}
+
+section.segundo article h2{
+    color: #242E53;
+}
+
+section.segundo article article{
+    display: flex;
+    justify-content: space-around;
+    width: 553px;
+    height: 158px;
+}
+
+section.tercero h2{
+    font-size: 39.2143px;
+    color: #242E53;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+section.tercero article{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 59px;
+    margin-bottom: 45px;
+    
+}
+
+section.tercero article article img{
+    position:relative;
+    bottom: 104px;
+    left: 187px;
+    width: 70px;
+    height: 70px;
+}
+
+section.tercero article article h3{
+    font-size: 16.0714px;
+    color: #3F4868;
+    position:relative;
+    bottom: 56px;
+}
+
+section.tercero article article p{
+    font-size: 16px;
+    color: #B9B9C1;
+    position:relative;
+    bottom: 39px;
+
+}
+
+section.tercero article article{
+    display: flex;
+    flex-direction: column;
+    background: #FAFAFA;
+    width: 445px;
+    height: 180px;
+}
+
+section.tercero button{
+    position:relative;
+    left: 653px;
+}
+
+
+section.cuarta div{
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1440px;
+    height: 224px;
+    background: #F3613C;
+}
+
+section.cuarta div h2{
+    width: 438px;
+    height: 96px;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+section.cuarta div button{
+    background: #FFFFFF;
+    width: 134px;
+    height: 44px;
+    
+    font-size: 13.1806px;
+}
+
+section.cuarta div button a{
+    color: #F3603B;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1439px;
+    height: 247px;
+    background: #1E1E26;
+}
+
+footer nav{
+    color: #FFFFFF;
+}
+
+footer nav ul{
+    list-style-type: none;
+}
+
+footer nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    transition: font-size 1s;
+}
+
+footer nav ul li a:hover{
+    opacity: 0.8;
+    color: #F3603B;;
+}
+
+footer article{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer article img{
+    margin-bottom: 10px;
+    
+}
+
+footer article div img{
+    background-color: white;
+    margin-top: 66.16px;
+    margin-left: 13.33px;
+    margin-right: 13.33px;
+}
+
+
+footer nav ul li{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+footer div form input{
+    margin-bottom: 66.16px;
+    padding-left: 20px;
+    width: 201px;
+    height: 44px;
+    background: #FFFFFF;
+    border-radius: 50px;
+}
+
+footer div form button{
+    font-size: 13.1806px;
+    width: 63px;
+    height: 42px;
+    background: #F3603B;
+    border-radius: 50px;
+    color: #FFFFFF;
+
+}
+
+footer div form input::placeholder{
+    font-size: 13.1806px;
+    color: #A0A0A0;
+}
+
+footer div p{
+    text-align: right;
+    font-size: 12.5px;
+    color: #8C8C94;
+}
+
+footer article:nth-child(2){
+    display: flex;
+    flex-direction: row;
+}
+
+footer article:nth-child(2) nav:nth-child(1){
+    position: relative;
+    right: 80px;
+
+}
+
+
+footer article:nth-child(2) nav:nth-child(2){
+    position: relative;
+    left: 80px;
+
+}
+
+
+@media (max-width: 375px){
+
+    header div{
+        text-decoration: none;
+        display: block;
+        padding: 10px 20px;
+        max-width: 100px;
+    }
+
+    header div nav{
+        width: 100px;
+        position: absolute;
+        left: -100px;
+        bottom: -80px;
+    }
+
+    header div input{
+        display: inline;
+    }
+    
+    header div i.fa-solid{
+        display: inline;
+    }
+        
+    header div input[type="checkbox"], header div .fa-bars, header div .fa-x{
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    }
+
+    header div .fa-bars, header div .fa-x{
+        font-size: 30px;
+        pointer-events: none;
+    }
+
+    header div input[type="checkbox"]{
+        opacity: 0;
+    }
+
+    header div{
+        color: #242E52;
+        position: relative;
+        min-height: 30px;
+    }
+
+    header div nav{
+        display: none;
+    }
+
+    header div input:checked ~ nav {
+        display: block;
+    }
+
+    header div input:checked ~ .fa-bars {
+        display: none;
+    }
+
+    header div input:not(:checked) ~ .fa-x {
+        display: none;
+    }
+
+    header button{
+        display: none;
+    }
+
+    header nav ul{
+        flex-direction: column;
+        width: 100px;
+    }
+
+
+    section.primer{
+        flex-direction: column-reverse;
+    }
+
+    section.segundo{
+        flex-direction: column;
+    }
+
+    section.segundo article:nth-child(2) article div h3{
+        background-color: #f8e5e0;
+    }
+
+    section.segundo article:nth-child(1){
+        text-align: center;
+        margin-left: 62.5px;
+        margin-right: 62.5px;
+        width: 250px;
+        height: 200px;
+    }
+
+    section.segundo article article:nth-child(1) p{
+        margin-top: 0px;
+        position: relative;
+        right: 0px;
+    }
+
+    section.segundo article article:nth-child(1){
+        margin-left: 0px;
+        text-align: center;
+        
+    }
+
+    section.segundo article h2{
+        font-size: 30px;
+    }
+
+    section.segundo article:nth-child(2) article:nth-child(1) div{
+        text-align: left;
+        width: 317px;
+    }
+
+    section.segundo article:nth-child(2) article:nth-child(1){
+        position: relative;
+        left: 20px;
+        height: 250px;
+        width: 375px;
+    }
+
+    section.segundo article:nth-child(2) article:nth-child(2){
+        position: relative;
+        left: 20px;
+        height: 250px;
+        width: 375px;
+    }
+    section.segundo article:nth-child(2) article:nth-child(3){
+        position: relative;
+        left: 20px;
+        height: 250px;
+        width: 375px;
+    }
+
+    section.segundo article:nth-child(1) p{
+        width: 335px;
+        position: relative;
+        right: 45px;
+        margin-top: 20px;
+    }
+
+    section.segundo article:nth-child(2) article div{
+        position: relative;
+        left: 10px;
+        margin-top: 12px;
+    }
+
+    section.segundo article:nth-child(2) article div p{
+        position:relative;
+        right: 60px;
+        top: 20px;
+        line-height : 35px;
+    }
+
+    section.segundo article:nth-child(2) article button{
+        height: 43px;
+        width: 75px;
+    }
+
+
+    section.segundo article:nth-child(2) article{
+        margin-top: 30px;
+    }
+
+
+
+
+
+    h1{
+        text-align: center;
+        font-size: 40px;
+    
+    }
+
+    .primer article p{
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 335px;
+        height: 80px;
+    }
+
+    .primer article button{
+        position: relative;
+        left: 120px;
+    }
+
+
+
+    .primer article{
+        width: 375px;
+    }
+
+    section.cuarta div{
+
+        width: 375px;
+
+    }
+
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 375px;
+        height: 500px;
+        background: #1E1E26;
+    }
+
+
+    footer article:nth-child(2) nav:nth-child(1){
+        position: relative;
+        right: 30px;
+    
+    }
+    
+    
+    footer article:nth-child(2) nav:nth-child(2){
+        position: relative;
+        left: 30px;
+    
+    }
+
+    footer article:nth-child(1){
+        position: relative;
+        left: 20px;
+        bottom: 30px;
+        width: 375px;
+        flex-direction: column-reverse;
+    }
+
+    footer{
+        flex-direction: column-reverse;
+    }
+
+    footer article > img{
+        position: relative;
+        left: 95px;
+        margin-bottom: 40px;
+        max-height: 40%;
+        max-width: 40%;
+    }
+
+    footer article div a > img{
+        position: relative;
+        bottom: 30px;
+        height: 25%;
+        width: 10%;
+    }
+
+    footer > div{
+        position: relative;
+        top: 60px;
+    }
+
+    footer > div > p{
+        position: relative;
+        top: 310px;
+        right: 35px;
+    }
+
+    section.cuarta > div{
+        height: 300px;
+    }
+    
+    section.cuarta div{
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    section.cuarta div h2{
+        text-align: center;
+        font-size: 31px;
+        width: 260px;
+        height: 90px;
+    }
+
+    section.tercero button {
+        position: relative;
+        left: 125px;
+    }
+
+    section.tercero article > article:nth-child(1){
+        display: none;
+    }
+
+    section.tercero article > article:nth-child(2){
+        margin-bottom: 0px;
+    }
+
+    section.tercero article > article:nth-child(2) img{
+        left: 150px;
+    }
+
+    section.tercero article > article:nth-child(3){
+        display: none;
+    }
+
+    section.tercero h2{
+        font-size: 30px;
+    }
+
+}
